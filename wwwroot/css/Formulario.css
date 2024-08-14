@@ -1,0 +1,36 @@
+/* formualrio  */
+
+
+.Contenedor-formulario {
+    margin-top: 0; 
+    padding-top: 0; 
+
+    background: #bb3e03;
+    background: -webkit-linear-gradient(0deg, #1316c8 0%, #210a2e 100%);
+    background: linear-gradient(0deg, #1316c8 0%, #210a2e 100%);
+    color: #fff;
+    padding: 20px 20px 20px;
+    border-radius: 10px;
+    width: 100%;
+  
+  
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .titulo-3 {
+    text-align: center;
+  }
+  
+  .titulo-6 {
+    text-align: center;
+    padding-top: 10em;
+  }
+  
+  .Formulario-Nombres{
+    text-align: center;
+  }
+  
+  

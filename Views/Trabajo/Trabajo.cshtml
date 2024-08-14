@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Trabajos</title>
+    <link rel="stylesheet" href="~/css/Trabajo.css" asp-append-version="true" />
+    <script src="~/js/Trabajo.1.0.0.js"></script>
+</head>
+
+<body>
+    
+     <div class="boton-container">
+        <button type="button" class="btn btn-primary boton" data-bs-toggle="modal" data-bs-target="#agregarTrabajo">Agregar Trabajo</button>
+    </div>
+    
+    <!-- Contenedor tarjetas agrupadas por profesión -->
+    <div class="contenedor-card color-contenedor" id="TrabajoID">
+        <!-- Aquí se insertarán las tarjetas agrupadas por profesión -->
+        <div id="contenedorCards" class="row"></div>
+    </div>
+   
+    <div class="modal fade color" id="agregarTrabajo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content modal_style">
+                <div class="modal-header">
+                    <h1 class="modal-title" id="exampleModalLabel" style=";">Nuevo Trabajo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body color">
+                    <form method="post" class="row g-4">
+                        <input type="hidden" id="TrabajoID">
+                        <div class="col-md-6">
+                            <label for="PersonaID" class="form-label">Nombre</label>
+                            @Html.DropDownList("PersonaID", null, htmlAttributes: new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-6">
+                            <label for="ProfesionID" class="form-label">Profesion</label>
+                            @Html.DropDownList("ProfesionID", null, htmlAttributes: new { @class = "form-control" })
+                        </div>
+                    
+
+                        <div class="row g-4">
+
+                             <div class="col-md-6">
+                            <label for="direccion" class="form-label">Direccion</label>
+                            <input type="text" id="direccion" class="form-control" placeholder="Direccion">
+                        </div>
+                          
+
+                            <div class="col-md-3">
+                                <label for="hora" class="form-label">Hora solicitada</label>
+                                <input type="datetime-local" id="hora" class="form-control" placeholder="Hora">
+                            </div>
+
+                            <div class="col-md-3">
+                                <label for="fecha" class="form-label">Fecha</label>
+                                <input type="date" id="fecha" class="form-control" placeholder="Fecha">
+                            </div>
+                        </div>
+
+                          <div class="col-md-12 row g-4">
+                                <label for="descripcion" class="form-label">Descripción</label>
+                                <textarea id="descripcion" class="form-control" rows="4"
+                                    placeholder="Descripción"></textarea>
+                            </div>
+
+                        <div class="col-md-12 row g-4">
+                            <label for="comentario" class="form-label">Comentario</label>
+                            <textarea id="comentario" class="form-control" rows="4" placeholder="Comentario"></textarea>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" onclick="agregarTrabajo()">Guardar cambios</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script src="~/js/Trabajo.1.0.0.js"></script>
+    }
+</body>
+
+</html>
