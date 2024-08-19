@@ -1161,3 +1161,4 @@ C:\Users\crist\OneDrive\Escritorio\postulate1.8\Postulate.com\obj\Debug\net8.0\r
 C:\Users\crist\OneDrive\Escritorio\postulate1.8\Postulate.com\obj\Debug\net8.0\Postulate.pdb
 C:\Users\crist\OneDrive\Escritorio\postulate1.8\Postulate.com\obj\Debug\net8.0\Postulate.genruntimeconfig.cache
 C:\Users\crist\OneDrive\Escritorio\postulate1.8\Postulate.com\obj\Debug\net8.0\ref\Postulate.dll
+C:\Users\crist\OneDrive\Escritorio\postulate1.8\Postulate.com\obj\Debug\net8.0\Postulate.sourcelink.json
