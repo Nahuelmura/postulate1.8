@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BANGHO\\Desktop\\postulate1.8\\Postulate.csproj": {}
+    "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\Postulate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BANGHO\\Desktop\\postulate1.8\\Postulate.csproj": {
+    "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\Postulate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BANGHO\\Desktop\\postulate1.8\\Postulate.csproj",
+        "projectUniqueName": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\Postulate.csproj",
         "projectName": "Postulate",
-        "projectPath": "C:\\Users\\BANGHO\\Desktop\\postulate1.8\\Postulate.csproj",
+        "projectPath": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\Postulate.csproj",
         "packagesPath": "C:\\Users\\BANGHO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BANGHO\\Desktop\\postulate1.8\\obj\\",
+        "outputPath": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BANGHO\\AppData\\Roaming\\NuGet\\NuGet.Config",
