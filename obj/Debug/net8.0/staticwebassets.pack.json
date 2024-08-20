@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\img\\color.jpg"
     },
     {
+      "Id": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\wwwroot\\img\\icono.ico",
+      "PackagePath": "staticwebassets\\img\\icono.ico"
+    },
+    {
       "Id": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\wwwroot\\img\\perfil.jpg",
       "PackagePath": "staticwebassets\\img\\perfil.jpg"
     },

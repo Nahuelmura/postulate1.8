@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mroZ8cNROdJSC18Br2DnwgSX6n/LYbiFCTxKk92Vv0I=",
+  "Hash": "7v7g0KpiUODKAAOaXKFlHs+79H1YvsRXe46NyYIjgMU=",
   "Source": "Postulate",
   "BasePath": "_content/Postulate",
   "Mode": "Default",
@@ -1459,6 +1459,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Grey Gender Diversity At Work Poster.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\wwwroot\\img\\icono.ico",
+      "SourceId": "Postulate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\wwwroot\\",
+      "BasePath": "_content/Postulate",
+      "RelativePath": "img/icono.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icono.ico"
     },
     {
       "Identity": "C:\\Users\\BANGHO\\Desktop\\Postulate\\postulate1.8\\wwwroot\\img\\perfil.jpg",
